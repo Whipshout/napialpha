@@ -1,0 +1,16 @@
+[package]
+name = "alpha"
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+crate-type = ["cdylib"]
+
+[dependencies]
+napi = "2.0.0-alpha.4"
+napi-derive = "2.0.0-alpha.6"
+sha2 = "0.9.8"
+rand = "0.8.4"
+
+[build-dependencies]
+napi-build = "1"
